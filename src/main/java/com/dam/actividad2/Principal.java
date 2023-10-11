@@ -13,7 +13,7 @@ import java.util.ArrayList;
 public class Principal {
 
   
-  public static ArrayList<Alumno> arrayAlumnos = new ArrayList<>();
+    static ArrayList<Alumno> arrayAlumnos = new ArrayList<>();
   
  public static void main(String args[]) {
  Formulario f = new Formulario();
@@ -23,9 +23,6 @@ public class Principal {
  
  }
 
-  public static void guardarAlumno(Alumno alumno){
-      arrayAlumnos.add(alumno);
-    
-    }
+  
  } 
 
